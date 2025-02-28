@@ -64,11 +64,8 @@ To understand the foundations and advancements in multi-armed bandits, best-arm 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The file [analysis.ipynb](analysis.ipynb) runs the algorithm for an example 1D and 2D parameter spaces. The ![first](test_1D.png) and ![second](test_2D.png) figures show the mean reward functions, the adaptively-discretized grid with the eliminated cubes in black and the active cubes in red. The red dots indicate the estimate best-arm.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
