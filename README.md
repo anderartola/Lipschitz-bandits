@@ -46,18 +46,16 @@ Multi-armed bandit problems are a class of sequential decision-making problems w
 To understand the foundations and advancements in multi-armed bandits, best-arm identification, and Lipschitz reward models, the following resources are highly recommended:
 
 1. **Multi-Armed Bandit Tutorials**:
-   - Bubeck, S., & Cesa-Bianchi, N. (2012). *"Regret Analysis of Stochastic and Nonstochastic Multi-Armed Bandit Problems."* Foundations and Trends in Machine Learning. [DOI:10.1561/2200000024](https://doi.org/10.1561/2200000024)
-   - Lattimore, T., & Szepesvári, C. (2020). *"Bandit Algorithms."* [Book link](https://banditalgs.com/)
+   - Bubeck, S., & Cesa-Bianchi, N. (2012). *"Regret Analysis of Stochastic and Nonstochastic Multi-Armed Bandit Problems."* Foundations and Trends in Machine Learning. 
+   - Lattimore, T., & Szepesvári, C. (2020). *"Bandit Algorithms."* 
 
 2. **Lipschitz Bandits and Continuous Spaces**:
-   - Kleinberg, R., Slivkins, A., & Upfal, E. (2008). *"Multi-armed bandits in metric spaces."* Proceedings of the 40th Annual ACM Symposium on Theory of Computing (STOC). [DOI:10.1145/1374376.1374393](https://doi.org/10.1145/1374376.1374393)
-   - Valko, M., Carpentier, A., & Munos, R. (2013). *"Stochastic Simultaneous Optimistic Optimization."* Proceedings of the 30th International Conference on Machine Learning (ICML). [arXiv:1306.1715](https://arxiv.org/abs/1306.1715)
+   - Kleinberg, R., Slivkins, A., & Upfal, E. (2008). *"Multi-armed bandits in metric spaces."* Proceedings of the 40th Annual ACM Symposium on Theory of Computing (STOC). 
+   - Valko, M., Carpentier, A., & Munos, R. (2013). *"Stochastic Simultaneous Optimistic Optimization."* Proceedings of the 30th International Conference on Machine Learning (ICML).
 
 3. **Best-Arm Identification**:
-   - Kaufmann, E., Cappé, O., & Garivier, A. (2016). *"On the Complexity of Best-Arm Identification in Multi-Armed Bandit Models."* Journal of Machine Learning Research. [JMLR link](http://jmlr.org/papers/v17/kaufmann16a.html)
-   - Bubeck, S., Munos, R., Stoltz, G., & Szepesvári, C. (2011). *"X-armed Bandits."* Journal of Machine Learning Research. [JMLR link](http://jmlr.org/papers/v12/bubeck11a.html)
-
-These references provide an in-depth understanding of the theoretical and practical aspects of the problem.
+   - Kaufmann, E., Cappé, O., & Garivier, A. (2016). *"On the Complexity of Best-Arm Identification in Multi-Armed Bandit Models."* Journal of Machine Learning Research.
+   - Bubeck, S., Munos, R., Stoltz, G., & Szepesvári, C. (2011). *"X-armed Bandits."* Journal of Machine Learning Research.
 
 ---
 
