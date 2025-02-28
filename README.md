@@ -58,8 +58,10 @@ To understand the foundations and advancements in multi-armed bandits, best-arm 
 
 ---
 
+We assume that arms are embedded in the unit cube $[0, 1]^d$. The algorithm adaptively discretizes the parameter spaces implemented in !()[cube_discretizer.py], and uses the Lipschitz condition to adaptively refine the grid. The algorithm has a parameter $\beta$ that controls the number of pulls per arm in each discretization phase and a parameter $\delta$ that can be use a a bound on the noise if the rewards come from a shifted distribution. It also requires an estimate of the Lipschitz constant $L$ of the ground-truth distribution. In the paper ??? we prove that this algorithm has simple regret bounded by
 
-
+$$R(n) \leq $$
+where $n$ is the total number of pulls.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
