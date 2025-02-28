@@ -13,77 +13,70 @@
 
 
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    &middot;
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    &middot;
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-  </p>
-</div>
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+# Best-Arm Identification in Continuous Spaces with Lipschitz Rewards
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This repository focuses on **best-arm identification (BAI)** algorithms in the context of **multi-armed bandits (MABs)** with **Lipschitz-continuous reward functions** defined over a continuous action space.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Multi-armed bandit problems are a class of sequential decision-making problems where an agent balances exploration and exploitation to maximize cumulative reward or identify the best action (arm). In continuous spaces, the challenge becomes more intricate as the number of possible arms is uncountable, and the reward function's smoothness must be leveraged for efficient decision-making.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+### Key Concepts
 
-Use the `BLANK_README.md` to get started.
+1. **Multi-Armed Bandits (MABs)**:
+   - MABs involve selecting an action (arm) from a set of possible actions and observing a stochastic reward.
+   - The agent seeks to identify the arm with the highest expected reward or maximize cumulative rewards over time.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+2. **Best-Arm Identification (BAI)**:
+   - The objective is to identify the arm that maximizes the expected reward within a fixed budget of interactions or with a predefined confidence level.
+   - BAI is critical in settings where deploying the best solution has high stakes (e.g., drug testing, hyperparameter optimization).
 
+3. **Lipschitz Continuity**:
+   - Reward functions are assumed to be Lipschitz continuous, meaning the difference in rewards between two arms is bounded by a constant times the distance between them.
+   - This smoothness assumption allows the agent to generalize information from explored regions to unexplored ones.
+
+### Goals of This Project
+
+- Implement state-of-the-art algorithms for best-arm identification in continuous spaces under the Lipschitz continuity assumption.
+- Provide benchmark comparisons for different algorithms.
+- Enable visualization and analysis of the performance of algorithms across various reward landscapes.
+
+### References
+
+To understand the foundations and advancements in multi-armed bandits, best-arm identification, and Lipschitz reward models, the following resources are highly recommended:
+
+1. **Multi-Armed Bandit Tutorials**:
+   - Bubeck, S., & Cesa-Bianchi, N. (2012). *"Regret Analysis of Stochastic and Nonstochastic Multi-Armed Bandit Problems."* Foundations and Trends in Machine Learning. [DOI:10.1561/2200000024](https://doi.org/10.1561/2200000024)
+   - Lattimore, T., & Szepesvári, C. (2020). *"Bandit Algorithms."* [Book link](https://banditalgs.com/)
+
+2. **Lipschitz Bandits and Continuous Spaces**:
+   - Kleinberg, R., Slivkins, A., & Upfal, E. (2008). *"Multi-armed bandits in metric spaces."* Proceedings of the 40th Annual ACM Symposium on Theory of Computing (STOC). [DOI:10.1145/1374376.1374393](https://doi.org/10.1145/1374376.1374393)
+   - Valko, M., Carpentier, A., & Munos, R. (2013). *"Stochastic Simultaneous Optimistic Optimization."* Proceedings of the 30th International Conference on Machine Learning (ICML). [arXiv:1306.1715](https://arxiv.org/abs/1306.1715)
+
+3. **Best-Arm Identification**:
+   - Kaufmann, E., Cappé, O., & Garivier, A. (2016). *"On the Complexity of Best-Arm Identification in Multi-Armed Bandit Models."* Journal of Machine Learning Research. [JMLR link](http://jmlr.org/papers/v17/kaufmann16a.html)
+   - Bubeck, S., Munos, R., Stoltz, G., & Szepesvári, C. (2011). *"X-armed Bandits."* Journal of Machine Learning Research. [JMLR link](http://jmlr.org/papers/v12/bubeck11a.html)
+
+These references provide an in-depth understanding of the theoretical and practical aspects of the problem.
+
+---
+
+### Contributions
+
+We welcome contributions to this repository, whether in the form of:
+- Implementations of new algorithms.
+- Enhancements to existing code.
+- Documentation improvements.
+- Experiments on new benchmark problems.
+
+Feel free to open issues or submit pull requests to contribute!
+
+---
 
 
 
