@@ -40,11 +40,6 @@ Multi-armed bandit problems are a class of sequential decision-making problems w
    - Reward functions are assumed to be Lipschitz continuous, meaning the difference in rewards between two arms is bounded by a constant times the distance between them.
    - This smoothness assumption allows the agent to generalize information from explored regions to unexplored ones.
 
-### Goals of This Project
-
-- Implement state-of-the-art algorithms for best-arm identification in continuous spaces under the Lipschitz continuity assumption.
-- Provide benchmark comparisons for different algorithms.
-- Enable visualization and analysis of the performance of algorithms across various reward landscapes.
 
 ### References
 
