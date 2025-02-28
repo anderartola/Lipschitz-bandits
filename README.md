@@ -64,7 +64,16 @@ To understand the foundations and advancements in multi-armed bandits, best-arm 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-The file [analysis.ipynb](analysis.ipynb) runs the algorithm for an example 1D and 2D parameter spaces. The figures show the mean reward functions, the adaptively-discretized grid with the eliminated cubes in black and the active cubes in red. The red dots indicate the estimated best-arm.
+The file [analysis.ipynb](analysis.ipynb) runs the algorithm for an example 1D and 2D parameter spaces.
+The examples consider Guassian bandits with mean rewards given by
+$$
+\mathcal{N}(cos(4x)-cos(x)/2 +cos(20x)+1, \sigma)
+$$
+and
+$$
+$$
+where $x\in\mathbb{R}^d$ is the arm index.
+The figures show the mean reward functions, the adaptively-discretized grid with the eliminated cubes in black and the active cubes in red. The red dots indicate the estimated best-arm.
 ![first](test_1D.png)  ![second](test_2D.png)
 
 
