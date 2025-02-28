@@ -50,9 +50,7 @@ To understand the foundations and advancements in multi-armed bandits, best-arm 
    - Lattimore, T., & Szepesvári, C. (2020). *"Bandit Algorithms."* 
 
 2. **Lipschitz Bandits and Continuous Spaces**:
-   - Kleinberg, R., Slivkins, A., & Upfal, E. (2008). *"Multi-armed bandits in metric spaces."* Proceedings of the 40th Annual ACM Symposium on Theory of Computing (STOC). 
-   - Valko, M., Carpentier, A., & Munos, R. (2013). *"Stochastic Simultaneous Optimistic Optimization."* Proceedings of the 30th International Conference on Machine Learning (ICML).
-
+   - Kleinberg, R., Slivkins, A., & Upfal, E. (2008). *"Multi-armed bandits in metric spaces."*  Feng, Y., Luo, W., Huang, Y., & Wang, T. (2020). “A Lipschitz Bandits Approach for Continuous Hyperparameter Optimization.” 
 3. **Best-Arm Identification**:
    - Kaufmann, E., Cappé, O., & Garivier, A. (2016). *"On the Complexity of Best-Arm Identification in Multi-Armed Bandit Models."* Journal of Machine Learning Research.
    - Bubeck, S., Munos, R., Stoltz, G., & Szepesvári, C. (2011). *"X-armed Bandits."* Journal of Machine Learning Research.
