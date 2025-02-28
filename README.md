@@ -66,9 +66,9 @@ To understand the foundations and advancements in multi-armed bandits, best-arm 
 
 The file [analysis.ipynb](analysis.ipynb) runs the algorithm for an example 1D and 2D parameter spaces.
 The examples consider Guassian bandits with mean rewards given by
-$$
+$
 \mathcal{N}(cos(4x)-cos(x)/2 +cos(20x)+1, \sigma)
-$$
+$
 and
 $$
 $$
