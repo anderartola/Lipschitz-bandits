@@ -22,7 +22,7 @@
 
 # Best-Arm Identification in Continuous Spaces with Lipschitz Rewards
 
-This repository focuses on **best-arm identification (BAI)** algorithms in the context of **multi-armed bandits (MABs)** with **Lipschitz-continuous reward functions** defined over a continuous action space.
+This repository focuses on a **best-arm identification (BAI)** algorithm in the context of **multi-armed bandits (MABs)** with **Lipschitz-continuous reward functions** defined over a continuous action space.
 
 Multi-armed bandit problems are a class of sequential decision-making problems where an agent balances exploration and exploitation to maximize cumulative reward or identify the best action (arm). In continuous spaces, the challenge becomes more intricate as the number of possible arms is uncountable, and the reward function's smoothness must be leveraged for efficient decision-making.
 
